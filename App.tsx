@@ -27,7 +27,7 @@ function App(): JSX.Element {
         <STACK.Screen name='Welcome' component={Welcome} />
         <STACK.Screen name='Home' component={Home} />
      </STACK.Navigator>
-     <Home/>
+    
      </NavigationContainer> 
    
   </ApiContext>
